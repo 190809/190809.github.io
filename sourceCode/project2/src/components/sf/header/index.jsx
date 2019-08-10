@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import './index.scss'
+import Out from '../../mjy/out/index.jsx'
 export default class Header extends Component {
     constructor(props){
         super(props)

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route,Switch,Redirect} from 'react-router-dom'
-import Header from '../header'
+import Out from '../out'
 import Login from '../login'
 
 export default class Main extends Component {
@@ -8,9 +8,9 @@ export default class Main extends Component {
         return (
             <div>
                 <Switch>
-                    <Route path='/header' component={Header}/>
+                    <Route path='/out' component={Out}/>
                     <Route path='/login' component={Login}/>
-                    <Redirect exact from='/' to='/header'/>
+                    <Redirect exact from='/' to='/out'/>
                 </Switch>
                 
             </div>

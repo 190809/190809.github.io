@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink,Route,Switch } from 'react-router-dom'
+import { NavLink,Route,Switch,Redirect } from 'react-router-dom'
 // 引入样式
 import './index.scss'
 // 推荐
@@ -68,6 +68,7 @@ export default class Mjy extends Component {
                                 return <Route path={this.props.match.url+item.url} component={item.content} key={index}/>
                             })
                         }
+                        <Redirect to='/out/recommend'/>
                     </Switch>
                     
                 </div>
