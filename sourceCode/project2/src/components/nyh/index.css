@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.Nyh{
+    width: 100%;
+
+}
+.Nyh-one{
+    width: 100%;
+}
+.Nyh-two{
+    width: 100%;
+    height: ;
+}
+.Routel{
+    width: 100%;
+}
+.Routel-a{
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.Routel-a2{
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-bottom: 2px red solid;
+}

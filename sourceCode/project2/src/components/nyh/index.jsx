@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
+import Routel from './routel'
+import './index.css'
 
-export default class Nyh extends Component {
+export default class Html extends Component {
     render() {
         return (
-            <div>
-                聂一晗
+            <div className='Nyh'>
+                <div className='Nyh-one'>
+
+                </div>
+                <div className='Nyh-two'>
+                    <Routel/>
+                </div>
             </div>
         )
     }
