@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../index.css'
 import Routel from '../routel/routel'
 import Guanzhu from '../guanzhu/guanzhu'
 

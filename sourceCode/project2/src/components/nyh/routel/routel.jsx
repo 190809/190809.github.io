@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter,NavLink,Route } from 'react-router-dom'
+import { NavLink,Route } from 'react-router-dom'
 import One from './one'
 import Two from './two'
 import Three from './three'
@@ -12,7 +12,7 @@ export default class Routel extends Component {
                 <div className='flex'>
                     <NavLink activeClassName='Routel-a2' 
                     isActive={(match,location)=>{
-                        if(match || location.pathname === '/'){
+                        if(match || location.pathname === '/zhuye'){
                             return true;
                         }
                         return false
@@ -23,6 +23,7 @@ export default class Routel extends Component {
                     <NavLink activeClassName='Routel-a2' className='Routel-a' to='/zhuye/four'>提问</NavLink>
                 </div>
                 <div>
+                    <Route path='/zhuye' exact component={() => <One/>}/>
                     <Route path='/zhuye/one' component={() => <One/>}/>
                     <Route path='/zhuye/two' component={() => <Two/>}/>
                     <Route path='/zhuye/three' component={() => <Three/>}/>
