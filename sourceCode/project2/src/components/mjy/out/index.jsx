@@ -47,7 +47,7 @@ export default class Mjy extends Component {
                         <input type="text" placeholder='搜索'/>
                     </div>
                     <div className='header-navlink'>
-                        <NavLink to='/login'>注册或登录</NavLink>
+                        <NavLink to='/denglu'>注册或登录</NavLink>
                     </div>
                 </div>
                 <div className='mjy-header-router'>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route,Switch,Redirect} from 'react-router-dom'
 import Out from '../out'
-import Login from '../login'
+import Login from '../../yjn/index'
 
 export default class Main extends Component {
     render() {
@@ -9,7 +9,6 @@ export default class Main extends Component {
             <div>
                 <Switch>
                     <Route path='/out' component={Out}/>
-                    <Route path='/login' component={Login}/>
                     <Redirect exact from='/' to='/out'/>
                 </Switch>
                 
