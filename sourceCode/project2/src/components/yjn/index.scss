@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    color: white;
+    background: #0084FF;
+    position: relative;
+    p{
+        font-size: 60px;
+        right: 25px;
+        top: 0px;
+        position: absolute;
+    }
+}
+.yjnmain{
+    padding: 35px;
+    padding-top: 0px;
+    input{
+        border:none;
+        outline: none;
+        font-size: 29px;
+    }
+    li{
+        padding-bottom: 15px;
+        margin-top: 70px;
+        border-bottom: 2px solid #EBEBEB;
+    }
+}
+// 注册页面
+.zcbox{
+    .sel{
+        font-size: 28px;
+        margin-right: 30px;
+        outline: none;
+        width: 180px;
+        border: none;
+        border-right: 4px solid #EBEBEB;
+    }
+    .zcyzm{
+        float: left;
+        margin-left: 10px;
+        margin-top: 50px;
+        box-shadow: none;
+        outline: none;
+        border:none;
+        border:2px solid #999999;
+        padding: 15px;
+        border-radius: 10px;
+        background: white;
+    }
+}
+.yjnimg1{
+    margin-left: 24px;
+    // margin-bottom: -50px;
+}
+.yjnimg2{
+    margin-top: 0px;
+    margin-left: 24px;
+}
+.zcp{
+    .p1{
+        font-size: 27px;
+        float: left;
+        color:#175199;
+        margin-left: 30px;
+    }
+    .p2{
+        font-size: 27px;
+        float: right;
+        color:#337bd3;
+        margin-right: 30px;
+    }
+}
+// 登录页1
+.loginbox{
+    .zcyzm{
+        float: left;
+        // margin-top: 60px;    
+        box-shadow: none;
+        outline: none;
+        border:none;
+        border:2px solid #999999;
+        padding: 15px;
+        border-radius: 10px;
+        background: white;
+    }
+    .sel{
+        font-size: 28px;
+        margin-right: 30px;
+        outline: none;
+        width: 180px;
+        border: none;
+        border-right: 4px solid #EBEBEB;
+    }
+}
+.loginp{
+    .p1{
+        font-size: 27px;
+        float: left;
+        color:#175199;
+        margin-left: 30px;
+    }
+    .p3{
+        font-size: 27px;
+        float: right;
+        color:#175199;
+        margin-right: 30px;
+    }
+}

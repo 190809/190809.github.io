@@ -1,0 +1,109 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.Nyh{
+    width: 100%;
+
+}
+.Nyh-one{
+    width: 100%;
+}
+.N-o-i{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1409224092,1124266154&fm=26&gp=0.jpg');
+}
+.Nyh-two{
+    width: 100%;
+}
+.Nyh-three{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    border-top: 2px grey solid;
+}
+.N-t-g{
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.Routel{
+    width: 100%;
+}
+.Routel-a{
+    display: block;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-top: 10px #F6F6F6 solid;
+}
+.Routel-a2{
+    display: block;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-bottom: 4px red solid;
+}
+.Nyh-tou{
+    width: 100%;
+    height: 100%;
+}
+.Nyh-tou>img{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 37%;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+.nicheng{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.qianming{
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 700;
+}
+.Nyh-content{
+    width: 100%;
+    height: 80px;
+}
+.Guanzhu{
+    width: 100%;
+    height: 80px;
+}
+.gzw{
+    display: block;
+    font-size: 30px;
+    width: 49%;
+    text-align: center;
+    line-height: 80px;
+    color: black;
+}
+.wgz{
+    display: block;
+    width: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    color: black;
+}

@@ -47,7 +47,7 @@ export default class Header extends Component {
                                 </NavLink>
                             </li>
                             <li className='h-c-u-item'>
-                                <NavLink to='/mine'>
+                                <NavLink to='/zhuye'>
                                     <i className='iconfont icon-lianxiren'></i>
                                     <span>我的主页</span>
                                 </NavLink>
