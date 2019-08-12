@@ -23,7 +23,7 @@ export default class Html extends Component {
                     <Route path='/gzw' component={Guanzhu2}/>
                     <Route path='/wgz' component={Guanzhu3}/>
                     <Route path='/denglu' component={Denglu}/>
-                    <Redirect to='/home'/>
+                    <Redirect to='/out'/>
                 </Switch>
             </BrowserRouter>
         )

@@ -51,7 +51,7 @@ export default class Mjy extends Component {
                     </div>
                 </div>
                 <div className='mjy-header-router'>
-                    <ul className='flex'>
+                    <ul style={{display: 'flex'}}>
                         {
                             list.map((item,index)=> {
                                 return <li key={index}>
