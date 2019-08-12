@@ -52,7 +52,7 @@ export default class Login extends Component {
             {/* 登录页面 */}
             <ul>
                 <li>
-                <select className='sel'>
+                <select className='sel'  style={{background:'white'}}>
                         <option>+86</option>
                         <option>+81</option>
                         <option>+852</option>

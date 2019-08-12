@@ -54,7 +54,7 @@ export default class Register extends Component {
             <div className='zcbox'>
                         <ul className='ul'>
                             <li style={{marginBottom:'10px'}}>
-                                <select className='sel'>
+                                <select className='sel' style={{background:'white'}}>
                                     <option>+86</option>
                                     <option>+81</option>
                                     <option>+852</option>
@@ -70,7 +70,7 @@ export default class Register extends Component {
                                 onChange={this.onHandleChange}
                                 placeholder='输入手机号'/>
                             </li>
-                            <li style={{float:'left',width:'77%'}}>
+                            <li style={{float:'left',width:'75%'}}>
                             <input type="text"
                                 name='yzm'
                                 value={yzm}
