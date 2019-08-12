@@ -23,11 +23,11 @@ export default class Main extends Component {
                     <Route exact path='/home' component={Header} />
                     {
                         stories && stories.map((item) => {
-                            return <div key={item.id}>
-                                <p>{item.title}</p>
+                            return <div key={item.id} style={{padding: '20px',marginBottom: '10px',backgroundColor: '#fff',borderBottom: '2px solid #E9E9E9'}}>
+                                <p style={{fontSize: '20px'}}>{item.title}</p>
                                 {
                                     item.images.map((item, index) => {
-                                        return <img key={index} src={item}/>
+                                        return <img style={{marginTop: '10px'}} key={index} src={item}/>
                                     })
                                 }
                             </div>
@@ -35,9 +35,9 @@ export default class Main extends Component {
                     }
                     {
                         top_stories && top_stories.map((item) => {
-                            return <div onClick={() => this.getDitail(item.id)} key={item.id}>
-                                <p>{item.title}</p>
-                                <img width='200' src={item.image}/>
+                            return <div onClick={() => this.getDitail(item.id)} key={item.id} style={{padding: '20px',marginBottom: '10px',backgroundColor: '#fff',borderBottom: '2px solid #E9E9E9'}}>
+                                <p style={{fontSize: '20px'}}>{item.title}</p>
+                                <img style={{marginTop: '10px'}} width='200' src={item.image}/>
                             </div>
                         })
                     }
